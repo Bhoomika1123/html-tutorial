@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightcyan;
+    width:98%;
+}
+header {
+    width: 100%;
+    background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: grey
+}
+.header, .options img{
+    width: 50px;
+    border-radius: 50px;
+
+}
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+.News, .influencers{
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.influencers ul img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.sidebar ul li, .influencers ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+    
+}
+.sidebar, .right-sidebar {
+    width: 23%;
+    margin-bottom: 120px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: white
+    
+}
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 0 20px;
+    margin-bottom: 120px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.post-box, .post {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.post-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    width: 95%;
+    height: auto;
+    
+}
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+ul {
+    list-style: none;
+    padding:0;
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.actions {
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+}
+.contest, .products, .interests {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.products ul, .interests ul {
+    display: flex;
+    flex-direction: column;
+}
+.products ul li, .interests ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    
+}
+.products ul img, .interests ul img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
